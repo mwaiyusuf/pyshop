@@ -6,4 +6,4 @@ from django.http import HttpResponse
 
 def index(request):
  # we are creating an instance of this class HttpResponse
-    return HttpResponse('Hello world')
+    return HttpResponse('welcome to the first trial')
