@@ -5,5 +5,6 @@ from . import  views
 # , means the current folder
 # and the module ends up to be an object
 urlpatterns =[
+# the quotes are left empty to show the root of the app in routing
     path('', views.index)
 ]
