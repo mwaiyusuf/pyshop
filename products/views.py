@@ -5,5 +5,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
- # we are creating an instance of this class
+ # we are creating an instance of this class HttpResponse
     return HttpResponse('Hello world')
