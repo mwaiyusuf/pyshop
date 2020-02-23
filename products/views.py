@@ -8,4 +8,4 @@ def index(request):
  # we are creating an instance of this class HttpResponse
     return HttpResponse('welcome to the first trial')
 def new(request):
-    # return HttpResponse("arrival of new products")
+    return HttpResponse("arrival of new products")
