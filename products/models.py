@@ -4,7 +4,7 @@ from django.db import models
 class Product(models.Model):
 
 # hackers could give  a long name
-
+# name,price,stock and image are the attributes
     name = models.CharField(max_length=255)
     price = models.FloatField()
     stock = models.IntegerField()
