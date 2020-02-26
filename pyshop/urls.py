@@ -18,5 +18,6 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+# Any time there is url to the prodcuts sent them to the product app
     path('products/',include('products.urls'))
 ]
