@@ -7,5 +7,5 @@ from . import  views
 urlpatterns =[
 # the quotes are left empty to show the root of the app in routing
     path('', views.index)
-    path('new', views.new)
+    # path('new', views.new)
 ]

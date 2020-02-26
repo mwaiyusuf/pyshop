@@ -7,5 +7,5 @@ from django.http import HttpResponse
 def index(request):
  # we are creating an instance of this class HttpResponse
     return HttpResponse('welcome to the first trial')
-def new(request):
-    return HttpResponse("arrival of new products")
+# def new(request):
+#     return HttpResponse("arrival of new products")
