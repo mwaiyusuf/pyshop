@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, offer
+from .models import Product, Offer
 # Register your models here.
 
 class OfferAdmin(admin.ModelAdmin):
@@ -7,5 +7,7 @@ class OfferAdmin(admin.ModelAdmin):
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = ("name","price","stock")
+
+
 admin.site.register(Offer, OfferAdmin)
 admin.site.register(Product, ProductAdmin)
