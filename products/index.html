@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>pyshop</title>
 </head>
 <body>
-
+<h1>Products</h1>
+<ul>
+<!--    templaate tag in django-->
+<!--    looping using the dictionary-->
+    {% for product in prducts %}
+    <li>{{product.name}} </li>
+    {% endfor %}
+<!--     <li>item 2 </li>-->
+<!--     <li>item 3</li>-->
+</ul>
 </body>
 </html>
