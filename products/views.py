@@ -8,7 +8,7 @@ from .models import Product
 def index(request):
     products = Product.objects.all()
 # renders the request of data to be passed using the dictionary
-    return render(request, 'index.html', {'products':products})
+    return render(request, 'index.html', {'Products':products})
  # we are creating an instance of this class HttpResponse
  #    return HttpResponse('welcome to the first trial')
 # def new(request):
