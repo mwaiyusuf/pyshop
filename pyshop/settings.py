@@ -55,7 +55,7 @@ ROOT_URLCONF = 'pyshop.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join('/home/pycharm/pyshop/products/templates',)],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
