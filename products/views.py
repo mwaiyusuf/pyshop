@@ -7,6 +7,7 @@ from .models import Product
 
 def index(request):
     products = Product.objects.all()
+    products = Product.objects.save/
 # renders the request of data to be passed using the dictionary
     return render(request, 'index.html', {'products':products})
  # we are creating an instance of this class HttpResponse
