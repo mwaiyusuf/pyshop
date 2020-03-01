@@ -13,6 +13,7 @@
     <!--    looping using the dictionary-->
         {% for product in products %}
         <li> {{ product.image_url }} </li>
+        <li> {{ product.stock }} </li>
 
         <li>{{ product.name }}  {{ product.price }} {{ product.stock }}  </li>
         {% endfor %}
