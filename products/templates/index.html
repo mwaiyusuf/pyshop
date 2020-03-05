@@ -14,6 +14,9 @@
 
             <div class="card" style="width: 18rem;">
                 <img   src="{{ product.image_url}}" class="card-img-top " alt="...">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <img src="{{product_image}}" class="img-responsive" alt="@Image">
+                </div>
                 <div class="card-body">
                     <h5 class="card-title">{{ product.name }}</h5>
                     <p class="card-text">ksh.{{ product.price }}</p>
