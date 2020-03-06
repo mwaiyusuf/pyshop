@@ -3,9 +3,15 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Product
+from .email import send_welcome_email
+
+
 # Create your views here.
 
 def index(request):
+    if request.method =='POST':
+        form = NewsLetterForm(request.POST)
+        if form.is_valid()
     products = Product.objects.all()
     # products = Product.objects.get/save()
 # renders the request of data to be passed using the dictionary
