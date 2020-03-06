@@ -20,6 +20,9 @@ def index(request):
             send_welcome_email(name,email)
 
             HttpResponse(index )
+        else:
+            form = NewsLetterForm()
+        return render(request, '')
     products = Product.objects.all()
     # products = Product.objects.get/save()
 # renders the request of data to be passed using the dictionary
