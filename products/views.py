@@ -19,7 +19,7 @@ def index(request):
             recipient.save()
             send_welcome_email(name,email)
 
-            HttpResponse()
+            HttpResponse(index )
     products = Product.objects.all()
     # products = Product.objects.get/save()
 # renders the request of data to be passed using the dictionary
