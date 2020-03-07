@@ -20,7 +20,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-# Any time there is url to the prodcuts sent them to the product app
+# Any time there is  url to the prodcuts sent them to the product app
     path('products/',include('products.urls'))
 ]
 if settings.DEBUG:
