@@ -1,2 +1,2 @@
 Hello{{name}}
-Welcome to the kuRamza newsletter.You will find the most exciting news about poultry farming and
+Welcome to the kuRamza newsletter.You will find the most exciting news about poultry farming and products
