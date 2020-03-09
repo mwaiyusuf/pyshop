@@ -15,4 +15,4 @@ def send_welcome_email(name,receiver):
     msg.send()
 
 # EmailMultiAlternatives  class is responsible for sending the email
-# send_welcome_enail takes the name and receiver name
+# send _welcome_enail takes the name and receiver name
