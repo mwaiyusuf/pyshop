@@ -14,5 +14,5 @@ def send_welcome_email(name,receiver):
     msg.attach_alternative(html_content,'text/html')
     msg.send()
 
-# EmailMultiAlternatives class is responsible for sending the email
+# EmailMultiAlternatives  class is responsible for sending the email
 # send_welcome_enail takes the name and receiver name
