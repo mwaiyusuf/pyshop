@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 # Any time there is  url to the prodcuts sent them to the product app
     path('products/',include('products.urls'))
+    path('^',include('regsitatration.backends.simple.urls'))
 ]
 if settings.DEBUG:
     urlpatterns+= static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
