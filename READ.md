@@ -1,8 +1,8 @@
-# INSTAGRAM
+# PYSHOP
 
 
 
-## Built By mwaiyusuf  19th May 2019
+## Built By mwaiyusuf  12th March 2020
 
 ## Description
 This is a web  application where a  user is able to view images. Image details are stored in categories and tagged by Location. user can  upload, edit or delete images,account.
