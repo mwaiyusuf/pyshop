@@ -36,7 +36,7 @@ This is a web  application where a  user is able to view images. Image details a
 | To edit image  | **Through Admin dashboard** | Redirected to the  image form details and editing happens|
 | To delete an image  | **Through Admin dashboard ** | click on image object and confirm by delete button|
 | To search  | **Enter text in search bar** | Users can search by category|
-| To filter by Location  | **Click drop-down on navbar** | Users can view images by Location| -->
+| To filter by the  Location  | **Click drop-down on navbar** | Users can view images by Location| -->
 
 
 ## SetUp / Installation Requirements
