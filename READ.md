@@ -11,19 +11,19 @@ This is a web  application where a  user is able to view products and shop. user
  
  Users would like to:
   * Sign in to the application  to start using.
-  * Upload my pictures to the application.
-  * See my profile with all my pictures.
-  * Follow other users and see their pictures on my timeline.
-  * Like a picture and leave  a comment on it.
+  * View products uploaded in the  application.
+  * view details of the products,the price included.
+  * .
+  * .
 
 
 <!-- ## Admin Abilities -->
  
 <!-- Admin  :
-* Sign in to the gallery
-* Create new images for showcasing
-* Update the image post details.
-* Delete images -->
+* Sign in to the pyshop
+* Creation of the products and the details 
+* Update the product post details.
+* Delete product -->
 
 
 ## Specifications
