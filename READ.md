@@ -5,7 +5,7 @@
 ## Built By mwaiyusuf  12th March 2020
 
 ## Description
-This is a web  application where a  user is able to view products. Image details are stored in categories and tagged by Location. user can  upload, edit or delete images,account.
+This is a web  application where a  user is able to view products and shop. user can  add to cart the products that he/she want to buy and gives the total cost at the bottom of the screen.
 
 ## User Stories
  
