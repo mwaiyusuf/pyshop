@@ -49,8 +49,8 @@ This is a web  application where a  user is able to view products and shop. user
 ### Cloning
 * In your terminal:
 
-        $ git clone  https://github.com/mwaiyusuf/instagram
-        $ cd Documents/moringa-school-projects/instagram
+        $ git clone  https://github.com/mwaiyusuf/pyshop
+        $ cd pycharmProjects/pyshop
 
 ## Running the Application
 * Creating the virtual environment
