@@ -47,7 +47,7 @@ This is a web  application where a  user is able to view products and shop. user
 * Requirements.txt
 
 ### Cloning
-* In your terminal:
+* In your terminal write:
 
         $ git clone  https://github.com/mwaiyusuf/pyshop
         $ cd pycharmProjects/pyshop
